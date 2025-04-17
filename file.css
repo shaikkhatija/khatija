@@ -1,0 +1,38 @@
+
+li{
+    background-color:greenyellow;
+}
+
+span{
+    background-color:yellow;
+}
+img{
+    height:100px;
+    width:100px;
+}
+h2{
+    color:red;
+    font-size:40px;
+    background-color:beige;
+    
+    border:3px solid black;
+    border-radius: 10px;
+    text-align: center;
+}
+*{
+    color:blue;
+}
+#heading{
+    color: brown;
+    background-color: orange;
+}
+.anurag{
+    color: aqua;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+.myimage{
+    height: 100px;
+    width: 100px;
+}
