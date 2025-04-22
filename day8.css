@@ -1,0 +1,113 @@
+.container{
+    display: flex;
+  } 
+  .button1{
+    color: white;
+    background-color: #77c476;
+    border-radius:20px;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 12px 20px;
+    margin: 10px;
+    border: none;
+  }
+  .button2{
+    color: #4361ee;
+    border-radius:20px;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 12px 20px;
+    margin: 10px;
+    border: none;
+  }
+  .card-image{
+    height: 300px;
+    width: 300px;
+ }
+ .main{
+  background-color: #5665b0;
+  justify-content: center;
+  width:100%;
+  display: block;
+  position: fixed;
+  
+  z-index: 999999; 
+
+ }
+ /* .space{
+  display:none;
+  color: #fff;
+  gap:100px
+ } */
+ .main-container{
+  align-items: center;
+  display: flex;
+  width: 100%;
+ }
+ .cons{
+  display: flex;
+  gap: 20px;
+  color:#fff;
+ }
+ .lg-button{
+  border:none;
+  background: none;
+  color: #fff;
+ }
+ .reg-button{
+  background-color: #77c476;
+  border-radius: 25px;
+  padding: 10px 20px;
+  border:none;
+  color: #fff;
+ }
+ .cons{
+  padding: 5px;
+ }
+ .bac-card{
+    margin: 0px;
+    padding: 0px;
+    width:100% ;
+    border: solid;
+    position: relative;
+    top:80px;
+    background-image:url(./bgimg.png) ;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 50px;
+    text-align: start;
+
+ }
+ .tt-bac{
+  width:50%;
+ }
+ .bcontainer{
+  background-color:hsl(212, 57%, 91%);
+  display: flex;
+  
+ }
+ .bcontent{
+  width:30%;
+ }
+ .eng{
+  color: #77c476;
+ }
+ .bcontainer1{
+  background-color: #5665b0;
+  display: flex;
+  
+ }
+ .bcontent1{
+  width: 30%;
+  padding-left: 40px;
+
+ }
+  .bc2{
+  height: 500px;
+  width: 500px;
+   /* margin:30px 30px 30px 30px; */
+   padding-left: 150px;
+   /* padding-top: 100px; */
+ }
+ 

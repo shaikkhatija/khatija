@@ -9,11 +9,16 @@
             display: flex;
             padding:30px;
             gap: 10px;
+            
+            
         }
         .card img{
-          height: 300px;
-          width: 350px;
-        }
+          height: 200px;
+          width: 200px;
+           position: relative;
+          right:10px;
+          bottom:50px; 
+        } 
         .card h5{
             font-size:28px;
             font-weight: 700;
@@ -26,7 +31,7 @@
         }
         .loan-button{
             color: white;
-            background-color: #77c476;;
+            background-color: #77c476;
             border-radius:20px;
             font-size: 18px;
             font-weight: 600;
@@ -40,14 +45,21 @@
             font-weight: 600;
             padding: 12px 20px;
         }
+        .card-header{
+            border: solid;
+            border-radius: 50px;
+            background-color: bisque;
+        
+        }
+        .right-content{
+            margin: 20px;
+        }
     </style>
 
 </head>
 <body>
+    <div class="card-header">
     <div class="card">
-        <div>
-            <img src="iiim.png" alt="image">
-        </div>
         <div class="right-content">
             <h5>Home Loan</h5>
             <p>Your dream home is closer than you think! Whether you're buying a new house, building your own, renovating your space, or refinancing an existing loan, FairNeft’s Home Loan offers affordable EMIs, flexible tenures, and instant approvals—all with minimal paperwork and a 100% digital process. Say goodbye to financial stress and hello to homeownership made easy!</p>
@@ -55,7 +67,10 @@
             <button class="loan-button">apply for loan</button>
             <button class="expect-button">ask expert</button>         
         </div>
+        <div>
+            <img src="iiim.png" alt="image">
+        </div>
     </div>
-    
+    </div>
 </body>
 </html>
