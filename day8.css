@@ -1,6 +1,67 @@
-.container{
-    display: flex;
-  } 
+ .main{
+  background-color: #5665b0;
+  justify-content: center;
+  width:100%;
+  display: block;
+  position: fixed;
+  display: flex;
+  z-index: 999999; 
+
+ }
+ .main-container{
+  align-items: center;
+  display: flex;
+  width: 25%;
+  margin-left: 50px;
+ }
+ .main-container2{
+  width:50%;
+ }
+ .cons{
+  display: flex;
+  gap: 20px;
+  color:#fff;
+  margin-top: 35px;
+  padding: 5px;
+ }
+ .main-container3{
+  width: 25%;
+  display: flex;
+  margin:20px;
+  gap: 20px;
+ }
+ .lg-button{
+  border:none;
+  background: none;
+  color: #fff;
+  margin-top: 20px;
+ }
+ .reg-button{
+  background-color: #77c476;
+  border-radius: 25px;
+  padding: 10px 20px;
+  border:none;
+  color: #fff;
+  margin: 10px;
+ }
+ .bac-card{
+  margin: 0px;
+  padding: 0px;
+  width:100% ;
+  border: solid;
+  position: relative;
+  top:80px;
+  background-image:url(./bgimg.png) ;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 50px;
+  text-align: start;
+
+ }
+ .tt-bac{
+  width:50%;
+ }
   .button1{
     color: white;
     background-color: #77c476;
@@ -18,96 +79,118 @@
     font-weight: 600;
     padding: 12px 20px;
     margin: 10px;
-    border: none;
+    background-color: white;
+    border-color:#4361ee;
   }
+  .container{
+    display: flex;
+  
+  } 
   .card-image{
     height: 300px;
     width: 300px;
  }
- .main{
-  background-color: #5665b0;
-  justify-content: center;
-  width:100%;
-  display: block;
-  position: fixed;
-  
-  z-index: 999999; 
+ 
 
- }
  /* .space{
   display:none;
   color: #fff;
   gap:100px
  } */
- .main-container{
-  align-items: center;
-  display: flex;
-  width: 100%;
- }
- .cons{
-  display: flex;
-  gap: 20px;
-  color:#fff;
- }
- .lg-button{
-  border:none;
-  background: none;
-  color: #fff;
- }
- .reg-button{
-  background-color: #77c476;
-  border-radius: 25px;
-  padding: 10px 20px;
-  border:none;
-  color: #fff;
- }
- .cons{
-  padding: 5px;
- }
- .bac-card{
-    margin: 0px;
-    padding: 0px;
-    width:100% ;
-    border: solid;
-    position: relative;
-    top:80px;
-    background-image:url(./bgimg.png) ;
-    background-size: cover;
-    background-position: center;
-    color: white;
-    padding: 50px;
-    text-align: start;
-
- }
- .tt-bac{
-  width:50%;
- }
  .bcontainer{
-  background-color:hsl(212, 57%, 91%);
+  background-color:hsl(212, 57%, 91%); 
   display: flex;
-  
+  padding: 50px;
+  text-align: start;
  }
- .bcontent{
-  width:30%;
- }
+ /* .bcontent{
+  width:30%; 
+ } */
  .eng{
   color: #77c476;
  }
  .bcontainer1{
-  background-color: #5665b0;
+  background-color: #5665b0; 
   display: flex;
-  
+  padding: 50px;
+  text-align: start;
  }
- .bcontent1{
-  width: 30%;
-  padding-left: 40px;
-
- }
+ /* .bcontent1{
+   width: 50px;
+   padding-left: 40px; 
+   text-align: start;
+ }  */
   .bc2{
-  height: 500px;
-  width: 500px;
-   /* margin:30px 30px 30px 30px; */
-   padding-left: 150px;
-   /* padding-top: 100px; */
- }
+   /* height: 300px;
+   width: 300px; */
+   /* margin:30px 30px 30px 30px;
+   margin-left: 100px; */
+   padding-top: 70px;
+   padding-right: 60px; 
+}
+.bcontainer3{
+  display: flex;
+  padding: 50px;
+  text-align: start;
+}
+
+
+/* .img-container{
+  width:50%;
+} */
+/* .bc3image{
+  height:300px;
+  width: 300px;
+} */
  
+ /* .bc2container{
+  width:30%;
+
+ } */
+ .footer-main{
+  display: flex;
+  justify-content: space-between;
+  padding: 60px;
+  flex-wrap: wrap;
+  gap: 20px;
+  background-color: rgb(236, 236, 242);
+}
+.footer-logo{
+  width: 180px;
+}
+.footer-content{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 20px;
+}
+.footer-content>h4{
+  color: #5665b0;
+  font-size:20px;
+} 
+@media (max-width:530px){
+  .container{
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (max-width:530px){
+  .bcontainer{
+    display: flex;
+    flex-direction: column;
+  }
+  .bcontainer1{
+    display: flex;
+    flex-direction: column;
+  }
+  .bcontainer3{
+    display: flex;
+    flex-direction: column;
+  }
+  
+
+}
+
+ 
+      
+  
